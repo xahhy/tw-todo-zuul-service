@@ -1,0 +1,7 @@
+spring:
+  config:
+    name: ${spring.application.name}
+    location: ../todo-configuration/todo-micro-service-config/application.yml, ../todo-configuration/todo-micro-service-config/
+  cloud:
+    config:
+      enabled: false
