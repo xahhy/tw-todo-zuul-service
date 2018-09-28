@@ -10,3 +10,5 @@ spring:
     consul:
       host: consul-service
       port: 8500
+      discovery:
+        health-check-path: /api/health
