@@ -7,8 +7,3 @@ spring:
     config:
       uri: http://config-service:8888
       fail-fast: true
-    consul:
-      host: consul-service
-      port: 8500
-      discovery:
-        health-check-path: /api/health
