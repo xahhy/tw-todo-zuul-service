@@ -47,5 +47,5 @@ dependencyManagement {
 }
 task createDockerImage(type: DockerBuildImage, dependsOn: build) {
 	inputDir = file('.')
-	tags = ['todo-zuul-service']
+	tags = ['xahhy/todo-zuul-service']
 }
